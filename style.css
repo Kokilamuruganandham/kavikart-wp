@@ -1,0 +1,179 @@
+/**
+Theme name: Test Product
+Theme URI: http://goole.com
+Author:My side
+version:1.0
+Descripition:Nothing 
+**/
+/* General Styles */
+.first-logo{
+    font-size: 45px;
+    font-family: 'inter', sans-serif;
+    font-weight: bold;
+    padding-top: 8px;
+    color:rgb(255, 255, 255) ;
+}
+
+.nav-items {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 15%;
+}
+
+.nav a {
+    color: rgb(255, 255, 255)
+}
+
+.main-container {
+    background-color: #012970;
+    color: white;
+}
+
+.search-box {
+    padding: 25px;
+    background-color: #012970;
+   
+
+}
+
+input.top-search {
+    width: 60%;
+    background-color: #012970;
+    color:white;
+    border-bottom: 0.5px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/* Product Card Styles */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+.single-page-card {
+    padding: 15px !important;
+    margin-top: 20px;
+}
+
+.product-card img {
+    max-width: 100%;
+    max-height: 320px;
+    min-height: 320px !important;
+    object-fit: contain !important;
+}
+
+.product-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.product-price {
+    color: #007bff;
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product-para {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Hover Effect for Product Card */
+.product-card:hover {
+    border-color: #b9bfc6; /* Change border color on hover */
+    box-shadow: 0 0 10px rgba(125, 131, 134, 0.5); /* Add a box shadow on hover */
+}
+.custom-single {
+    margin-bottom: 20px;
+}
+
+.post-thumbnail img {
+    width: 100%; /* Make sure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.post-content {
+    padding: 20px;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 767px) {
+    .post-thumbnail {
+        margin-bottom: 20px;
+    }
+}
+/* Add-buy-cart container */
+.Add-buy-cart {
+    margin-left: 20px;
+    margin-top: 20px; /* Adjust the margin based on your layout */
+}
+
+/* Button styling */
+.Add-buy-cart button {
+    padding: 15px 45px;
+    font-size: 16px;
+    background-color: hsl(217, 93%, 36%); /* Adjust the background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.Add-buy-cart button:hover {
+    
+    background-color: hsl(209, 59%, 56%); /* Adjust the hover background color */
+}
+
+/* Icon styling */
+.Add-buy-cart i {
+    font-size: 18px;
+    margin-right: 5px;
+     /* Adjust the margin based on your design */
+}
+
+.width50 {
+    width: 100%;
+    text-align: center;
+}
+
+.login-card {
+    width: 40%;
+    margin: 12% 0px;
+    padding: 6% 0px;
+    border: 1px solid #012970;
+}
+.login-card input {
+    margin: 15px 0px;
+    padding: 8px 0px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0.5px solid #012970;
+}
+.login-card button {
+    margin: 15px 0px;
+    padding: 8px 12px;
+    width: 35%;
+    text-align: center;
+    border-radius: 10px;
+    border: 0.5px solid #012970;
+    background-color:  #012970;
+    color: white;
+}
+::placeholder{
+    text-align: center;
+}
+
+
+
+ 
+
+
+
+
